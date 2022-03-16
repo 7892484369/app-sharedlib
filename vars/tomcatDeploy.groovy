@@ -1,4 +1,4 @@
-def call(ip,user,credId){
+def call(ips,user,credId){
   sshagent([credId]) {
     ips.each {
       echo "deploying on ${it}" 
