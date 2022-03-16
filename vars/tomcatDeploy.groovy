@@ -8,4 +8,3 @@ def call(ips,user,credId){
      }
   }
 }
-     
